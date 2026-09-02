@@ -1,0 +1,11 @@
+# Normalize line endings
+# Language detection rules
+*.woff2 binary
+*.jpeg binary
+*.svg text
+*.tsx linguist-detectable
+*.bat text eol=crlf
+
+* text=auto
+public/* linguist-vendored
+*.png binary
